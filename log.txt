@@ -1,0 +1,274 @@
+2021-04-25 01:17:30.725 INFO com.gladkaya.shape.validator.DataValidator - Correct string [src/main/resources/file/shapeDataFile.txt]? false
+2021-04-25 01:17:30.729 INFO com.gladkaya.shape.validator.ShapeValidator - Is triangle [src/main/resources/file/shapeDataFile.txt]? false
+2021-04-25 01:23:57.354 INFO com.gladkaya.shape.validator.DataValidator - Correct string [[1 2 30, 2 3 45]]? false
+2021-04-25 01:23:57.359 INFO com.gladkaya.shape.validator.ShapeValidator - Is triangle [[1 2 30, 2 3 45]]? true
+2021-04-25 01:24:40.722 INFO com.gladkaya.shape.validator.DataValidator - Correct string [[1 2 30, 2 3 45, 2 4 0]]? false
+2021-04-25 01:24:40.726 INFO com.gladkaya.shape.validator.ShapeValidator - Is triangle [[1 2 30, 2 3 45, 2 4 0]]? true
+2021-04-25 01:26:01.839 INFO com.gladkaya.shape.validator.DataValidator - Correct string [[1 2 30, 2 3 45, 2 4 0, a 5 6]]? false
+2021-04-25 01:26:01.842 INFO com.gladkaya.shape.validator.ShapeValidator - Is triangle [[1 2 30, 2 3 45, 2 4 0, a 5 6]]? true
+2021-04-25 01:45:46.106 INFO com.gladkaya.shape.validator.DataValidator - Correct string [[1 2 30, 2 3 45, 2 4 0, a 5 6]]? false
+2021-04-25 01:45:46.110 INFO com.gladkaya.shape.validator.ShapeValidator - Is triangle [[1 2 30, 2 3 45, 2 4 0, a 5 6]]? true
+2021-04-25 21:14:29.866 INFO com.gladkaya.shape.validator.DataValidator - Correct string [1 2 30]? false
+2021-04-25 21:14:29.881 INFO com.gladkaya.shape.validator.DataValidator - Correct string [2 3 45]? false
+2021-04-25 21:14:29.881 INFO com.gladkaya.shape.validator.DataValidator - Correct string [2 4 0]? false
+2021-04-25 21:14:29.881 INFO com.gladkaya.shape.validator.DataValidator - Correct string [a 5 6]? false
+2021-04-25 21:15:44.855 INFO com.gladkaya.shape.validator.DataValidator - Correct string [1 2 30]? true
+2021-04-25 21:15:44.859 INFO com.gladkaya.shape.validator.ShapeValidator - Is triangle [1 2 30]? true
+2021-04-25 21:15:44.859 INFO com.gladkaya.shape.validator.DataValidator - Correct string [2 3 45]? true
+2021-04-25 21:15:44.859 INFO com.gladkaya.shape.validator.ShapeValidator - Is triangle [2 3 45]? true
+2021-04-25 21:15:44.859 INFO com.gladkaya.shape.validator.DataValidator - Correct string [2 4 0]? true
+2021-04-25 21:15:44.859 INFO com.gladkaya.shape.validator.ShapeValidator - Is triangle [2 4 0]? true
+2021-04-25 21:15:44.859 INFO com.gladkaya.shape.validator.DataValidator - Correct string [a 5 6]? false
+2021-04-25 21:17:34.027 INFO com.gladkaya.shape.validator.DataValidator - Correct string [1 2 30]? true
+2021-04-25 21:17:34.029 INFO com.gladkaya.shape.validator.ShapeValidator - Is triangle [1 2 30]? true
+2021-04-25 21:17:34.029 INFO com.gladkaya.shape.validator.DataValidator - Correct string [2 3 45]? true
+2021-04-25 21:17:34.030 INFO com.gladkaya.shape.validator.ShapeValidator - Is triangle [2 3 45]? true
+2021-04-25 21:17:34.030 INFO com.gladkaya.shape.validator.DataValidator - Correct string [2 4 0]? true
+2021-04-25 21:17:34.030 INFO com.gladkaya.shape.validator.ShapeValidator - Is triangle [2 4 0]? false
+2021-04-25 21:17:34.030 INFO com.gladkaya.shape.validator.DataValidator - Correct string [a 5 6]? false
+2021-04-25 21:27:02.682 INFO com.gladkaya.shape.validator.DataValidator - Correct string [1 2 30]? true
+2021-04-25 21:27:02.685 INFO com.gladkaya.shape.validator.ShapeValidator - Is triangle [1 2 30]? true
+2021-04-25 21:27:02.685 INFO com.gladkaya.shape.validator.DataValidator - Correct string [2 3 45]? true
+2021-04-25 21:27:02.685 INFO com.gladkaya.shape.validator.ShapeValidator - Is triangle [2 3 45]? true
+2021-04-25 21:27:02.685 INFO com.gladkaya.shape.validator.DataValidator - Correct string [2 4 0]? true
+2021-04-25 21:27:02.685 INFO com.gladkaya.shape.validator.ShapeValidator - Is triangle [2 4 0]? false
+2021-04-25 21:27:02.686 INFO com.gladkaya.shape.validator.DataValidator - Correct string [a 5 6]? false
+2021-04-25 21:31:47.154 INFO com.gladkaya.shape.validator.DataValidator - Correct string [1 2 30]? true
+2021-04-25 21:31:47.157 INFO com.gladkaya.shape.validator.DataValidator - Correct string [2 3 45]? true
+2021-04-25 21:31:47.158 INFO com.gladkaya.shape.validator.DataValidator - Correct string [2 4 0]? true
+2021-04-25 21:31:47.158 INFO com.gladkaya.shape.validator.DataValidator - Correct string [a 5 6]? false
+2021-04-25 21:37:16.206 INFO com.gladkaya.shape.validator.DataValidator - Correct string [1 2 30]? true
+2021-04-25 21:37:16.210 INFO com.gladkaya.shape.validator.ShapeValidator - Is triangle [1 2 30]? true
+2021-04-25 21:37:16.210 INFO com.gladkaya.shape.validator.DataValidator - Correct string [2 3 45]? true
+2021-04-25 21:37:16.210 INFO com.gladkaya.shape.validator.ShapeValidator - Is triangle [2 3 45]? true
+2021-04-25 21:37:16.210 INFO com.gladkaya.shape.validator.DataValidator - Correct string [2 4 0]? true
+2021-04-25 21:37:16.210 INFO com.gladkaya.shape.validator.ShapeValidator - Is triangle [2 4 0]? false
+2021-04-25 21:37:16.211 INFO com.gladkaya.shape.validator.DataValidator - Correct string [a 5 6]? false
+2021-04-25 21:38:31.654 INFO com.gladkaya.shape.validator.DataValidator - Correct string [1.0 2.0 30.0]? false
+2021-04-25 21:38:31.657 INFO com.gladkaya.shape.validator.DataValidator - Correct string [2.0 3.0 45.0]? false
+2021-04-25 21:38:31.657 INFO com.gladkaya.shape.validator.DataValidator - Correct string [2.0 4.0 0.0]? false
+2021-04-25 21:38:31.657 INFO com.gladkaya.shape.validator.DataValidator - Correct string [a 5.0 6.0]? false
+2021-04-25 21:39:06.083 INFO com.gladkaya.shape.validator.DataValidator - Correct string [1.0 2.0 30.0]? true
+2021-04-25 21:39:06.086 INFO com.gladkaya.shape.validator.ShapeValidator - Is triangle [1.0 2.0 30.0]? true
+2021-04-25 21:39:06.086 INFO com.gladkaya.shape.validator.DataValidator - Correct string [2.0 3.0 45.0]? true
+2021-04-25 21:39:06.086 INFO com.gladkaya.shape.validator.ShapeValidator - Is triangle [2.0 3.0 45.0]? true
+2021-04-25 21:39:06.086 INFO com.gladkaya.shape.validator.DataValidator - Correct string [2.0 4.0 0.0]? true
+2021-04-25 21:39:06.087 INFO com.gladkaya.shape.validator.ShapeValidator - Is triangle [2.0 4.0 0.0]? true
+2021-04-25 21:39:06.087 INFO com.gladkaya.shape.validator.DataValidator - Correct string [a 5.0 6.0]? false
+2021-04-25 21:41:40.992 INFO com.gladkaya.shape.validator.DataValidator - Correct string [1.0 2.0 30.0]? true
+2021-04-25 21:41:40.995 INFO com.gladkaya.shape.validator.ShapeValidator - Is triangle [1.0 2.0 30.0]? true
+2021-04-25 21:41:40.995 INFO com.gladkaya.shape.validator.DataValidator - Correct string [2.0 3.0 45.0]? true
+2021-04-25 21:41:40.995 INFO com.gladkaya.shape.validator.ShapeValidator - Is triangle [2.0 3.0 45.0]? true
+2021-04-25 21:41:40.995 INFO com.gladkaya.shape.validator.DataValidator - Correct string [2.0 4.0 0.0]? true
+2021-04-25 21:41:40.996 INFO com.gladkaya.shape.validator.ShapeValidator - Is triangle [2.0 4.0 0.0]? true
+2021-04-25 21:41:40.996 INFO com.gladkaya.shape.validator.DataValidator - Correct string [a 5.0 6.0]? false
+2021-04-25 21:43:07.230 INFO com.gladkaya.shape.validator.DataValidator - Correct string [1.0 2.0 30.0]? true
+2021-04-25 21:43:07.233 INFO com.gladkaya.shape.validator.ShapeValidator - Is triangle [1.0 2.0 30.0]? true
+2021-04-25 21:43:07.233 INFO com.gladkaya.shape.validator.DataValidator - Correct string [2.0 3.0 45.0]? true
+2021-04-25 21:43:07.233 INFO com.gladkaya.shape.validator.ShapeValidator - Is triangle [2.0 3.0 45.0]? true
+2021-04-25 21:43:07.233 INFO com.gladkaya.shape.validator.DataValidator - Correct string [2.0 4.0 0.0]? true
+2021-04-25 21:43:07.233 INFO com.gladkaya.shape.validator.ShapeValidator - Is triangle [2.0 4.0 0.0]? false
+2021-04-25 21:43:07.233 INFO com.gladkaya.shape.validator.DataValidator - Correct string [a 5.0 6.0]? false
+2021-04-25 21:43:07.234 INFO com.gladkaya.shape.parser.DataParser - Correct line of triangle: [1.0, 0.0, 0.0]
+2021-04-25 21:43:07.234 INFO com.gladkaya.shape.parser.DataParser - Correct line of triangle: [0.0, 3.0, 0.0]
+2021-04-25 21:44:31.441 INFO com.gladkaya.shape.validator.DataValidator - Correct string [1.0 2.0 30.0]? true
+2021-04-25 21:44:31.443 INFO com.gladkaya.shape.validator.ShapeValidator - Is triangle [1.0 2.0 30.0]? true
+2021-04-25 21:44:31.444 INFO com.gladkaya.shape.validator.DataValidator - Correct string [2.0 3.0 45.0]? true
+2021-04-25 21:44:31.444 INFO com.gladkaya.shape.validator.ShapeValidator - Is triangle [2.0 3.0 45.0]? true
+2021-04-25 21:44:31.444 INFO com.gladkaya.shape.validator.DataValidator - Correct string [2.0 4.0 0.0]? true
+2021-04-25 21:44:31.444 INFO com.gladkaya.shape.validator.ShapeValidator - Is triangle [2.0 4.0 0.0]? false
+2021-04-25 21:44:31.444 INFO com.gladkaya.shape.validator.DataValidator - Correct string [a 5.0 6.0]? false
+2021-04-25 21:44:31.445 INFO com.gladkaya.shape.parser.DataParser - Correct line of triangle: [1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+2021-04-25 21:45:47.620 INFO com.gladkaya.shape.validator.DataValidator - Correct string [1.0 2.0 30.0]? true
+2021-04-25 21:45:47.623 INFO com.gladkaya.shape.validator.ShapeValidator - Is triangle [1.0 2.0 30.0]? true
+2021-04-25 21:45:47.623 INFO com.gladkaya.shape.validator.DataValidator - Correct string [2.0 3.0 45.0]? true
+2021-04-25 21:45:47.623 INFO com.gladkaya.shape.validator.ShapeValidator - Is triangle [2.0 3.0 45.0]? true
+2021-04-25 21:45:47.624 INFO com.gladkaya.shape.validator.DataValidator - Correct string [2.0 4.0 0.0]? true
+2021-04-25 21:45:47.624 INFO com.gladkaya.shape.validator.ShapeValidator - Is triangle [2.0 4.0 0.0]? false
+2021-04-25 21:45:47.624 INFO com.gladkaya.shape.validator.DataValidator - Correct string [a 5.0 6.0]? false
+2021-04-25 21:45:47.624 INFO com.gladkaya.shape.parser.DataParser - Correct line of triangle: [1.0, 0.0, 0.0]
+2021-04-25 21:45:47.624 INFO com.gladkaya.shape.parser.DataParser - Correct line of triangle: [0.0, 3.0, 0.0]
+2021-04-25 22:08:16.983 INFO com.gladkaya.shape.validator.DataValidator - Correct string [1 2 30]? false
+2021-04-25 22:08:16.986 INFO com.gladkaya.shape.validator.DataValidator - Correct string [2 3 45]? false
+2021-04-25 22:08:16.986 INFO com.gladkaya.shape.validator.DataValidator - Correct string [2 4 0]? false
+2021-04-25 22:08:16.986 INFO com.gladkaya.shape.validator.DataValidator - Correct string [a 5 6]? false
+2021-04-25 22:09:37.607 INFO com.gladkaya.shape.validator.DataValidator - Correct string [1 2 30]? false
+2021-04-25 22:09:37.610 INFO com.gladkaya.shape.validator.DataValidator - Correct string [2 3 45]? false
+2021-04-25 22:09:37.611 INFO com.gladkaya.shape.validator.DataValidator - Correct string [2 4 0]? false
+2021-04-25 22:09:37.611 INFO com.gladkaya.shape.validator.DataValidator - Correct string [a 5 6]? false
+2021-04-25 22:10:39.128 INFO com.gladkaya.shape.validator.DataValidator - Correct string [1 2 30]? true
+2021-04-25 22:10:39.131 INFO com.gladkaya.shape.validator.ShapeValidator - Is triangle [1 2 30]? true
+2021-04-25 22:10:39.131 INFO com.gladkaya.shape.validator.DataValidator - Correct string [2 3 45]? true
+2021-04-25 22:10:39.131 INFO com.gladkaya.shape.validator.ShapeValidator - Is triangle [2 3 45]? true
+2021-04-25 22:10:39.131 INFO com.gladkaya.shape.validator.DataValidator - Correct string [2 4 0]? true
+2021-04-25 22:10:39.131 INFO com.gladkaya.shape.validator.ShapeValidator - Is triangle [2 4 0]? false
+2021-04-25 22:10:39.131 INFO com.gladkaya.shape.validator.DataValidator - Correct string [a 5 6]? false
+2021-04-25 22:10:39.132 INFO com.gladkaya.shape.parser.DataParser - Correct line of triangle: [1, 0, 0]
+2021-04-25 22:10:39.132 INFO com.gladkaya.shape.parser.DataParser - Correct line of triangle: [0, 3, 0]
+2021-04-25 22:13:15.930 INFO com.gladkaya.shape.validator.DataValidator - Correct string [1 2 30]? true
+2021-04-25 22:13:15.932 INFO com.gladkaya.shape.validator.ShapeValidator - Is triangle [1 2 30]? true
+2021-04-25 22:13:15.933 INFO com.gladkaya.shape.validator.DataValidator - Correct string [2 3 45]? true
+2021-04-25 22:13:15.933 INFO com.gladkaya.shape.validator.ShapeValidator - Is triangle [2 3 45]? true
+2021-04-25 22:13:15.933 INFO com.gladkaya.shape.validator.DataValidator - Correct string [2 4 0]? true
+2021-04-25 22:13:15.933 INFO com.gladkaya.shape.validator.ShapeValidator - Is triangle [2 4 0]? false
+2021-04-25 22:13:15.933 INFO com.gladkaya.shape.validator.DataValidator - Correct string [a 5 6]? false
+2021-04-25 22:13:15.934 INFO com.gladkaya.shape.parser.DataParser - Correct line of triangle: [0.0, 3.0, 0.0]
+2021-04-25 22:14:15.517 INFO com.gladkaya.shape.validator.DataValidator - Correct string [1.0 2.0 30.0]? true
+2021-04-25 22:14:15.520 INFO com.gladkaya.shape.validator.ShapeValidator - Is triangle [1.0 2.0 30.0]? true
+2021-04-25 22:14:15.520 INFO com.gladkaya.shape.validator.DataValidator - Correct string [2.0 3.0 45.0]? true
+2021-04-25 22:14:15.520 INFO com.gladkaya.shape.validator.ShapeValidator - Is triangle [2.0 3.0 45.0]? true
+2021-04-25 22:14:15.520 INFO com.gladkaya.shape.validator.DataValidator - Correct string [2.0 4.0 0.0]? true
+2021-04-25 22:14:15.521 INFO com.gladkaya.shape.validator.ShapeValidator - Is triangle [2.0 4.0 0.0]? false
+2021-04-25 22:14:15.521 INFO com.gladkaya.shape.validator.DataValidator - Correct string [a.0 5.0 6.0]? false
+2021-04-25 22:14:15.521 INFO com.gladkaya.shape.parser.DataParser - Correct line of triangle: [0.0, 3.0, 0.0]
+2021-04-25 22:14:43.770 INFO com.gladkaya.shape.validator.DataValidator - Correct string [1.0 2.0 30.0]? true
+2021-04-25 22:14:43.771 INFO com.gladkaya.shape.validator.ShapeValidator - Is triangle [1.0 2.0 30.0]? true
+2021-04-25 22:14:43.772 INFO com.gladkaya.shape.validator.DataValidator - Correct string [2.0 3.0 45.0]? true
+2021-04-25 22:14:43.772 INFO com.gladkaya.shape.validator.ShapeValidator - Is triangle [2.0 3.0 45.0]? true
+2021-04-25 22:14:43.772 INFO com.gladkaya.shape.validator.DataValidator - Correct string [2.0 4.0 0.0]? true
+2021-04-25 22:14:43.772 INFO com.gladkaya.shape.validator.ShapeValidator - Is triangle [2.0 4.0 0.0]? false
+2021-04-25 22:14:43.772 INFO com.gladkaya.shape.validator.DataValidator - Correct string [a.0 5.0 6.0]? false
+2021-04-25 23:14:40.838 INFO com.gladkaya.shape.validator.DataValidator - Correct string [1.0 2.0 30.0]? true
+2021-04-25 23:14:40.856 INFO com.gladkaya.shape.validator.ShapeValidator - Is triangle [1.0 2.0 30.0]? true
+2021-04-25 23:14:40.856 INFO com.gladkaya.shape.validator.DataValidator - Correct string [2.0 3.0 45.0]? true
+2021-04-25 23:14:40.857 INFO com.gladkaya.shape.validator.ShapeValidator - Is triangle [2.0 3.0 45.0]? true
+2021-04-25 23:14:40.857 INFO com.gladkaya.shape.validator.DataValidator - Correct string [2.0 4.0 0.0]? true
+2021-04-25 23:14:40.857 INFO com.gladkaya.shape.validator.ShapeValidator - Is triangle [2.0 4.0 0.0]? false
+2021-04-25 23:14:40.857 INFO com.gladkaya.shape.validator.DataValidator - Correct string [a.0 5.0 6.0]? false
+2021-04-25 23:22:25.057 INFO com.gladkaya.shape.validator.DataValidator - Correct string [1.0 2.0 30.0]? true
+2021-04-25 23:22:25.060 INFO com.gladkaya.shape.validator.ShapeValidator - Is triangle [1.0 2.0 30.0]? true
+2021-04-25 23:22:25.060 INFO com.gladkaya.shape.validator.DataValidator - Correct string [2.0 3.0 45.0]? true
+2021-04-25 23:22:25.060 INFO com.gladkaya.shape.validator.ShapeValidator - Is triangle [2.0 3.0 45.0]? true
+2021-04-25 23:22:25.060 INFO com.gladkaya.shape.validator.DataValidator - Correct string [2.0 4.0 0.0]? true
+2021-04-25 23:22:25.060 INFO com.gladkaya.shape.validator.ShapeValidator - Is triangle [2.0 4.0 0.0]? false
+2021-04-25 23:22:25.061 INFO com.gladkaya.shape.validator.DataValidator - Correct string [a.0 5.0 6.0]? false
+2021-04-25 23:22:25.061 INFO com.gladkaya.shape.parser.DataParser - Correct line of triangle: [F@276438c9
+2021-04-25 23:22:25.061 INFO com.gladkaya.shape.parser.DataParser - Correct line of triangle: [F@588df31b
+2021-04-25 23:23:13.755 INFO com.gladkaya.shape.validator.DataValidator - Correct string [1.0 2.0 30.0]? true
+2021-04-25 23:23:13.759 INFO com.gladkaya.shape.validator.ShapeValidator - Is triangle [1.0 2.0 30.0]? true
+2021-04-25 23:23:13.759 INFO com.gladkaya.shape.validator.DataValidator - Correct string [2.0 3.0 45.0]? true
+2021-04-25 23:23:13.759 INFO com.gladkaya.shape.validator.ShapeValidator - Is triangle [2.0 3.0 45.0]? true
+2021-04-25 23:23:13.760 INFO com.gladkaya.shape.validator.DataValidator - Correct string [2.0 4.0 0.0]? true
+2021-04-25 23:23:13.760 INFO com.gladkaya.shape.validator.ShapeValidator - Is triangle [2.0 4.0 0.0]? false
+2021-04-25 23:23:13.760 INFO com.gladkaya.shape.validator.DataValidator - Correct string [a.0 5.0 6.0]? false
+2021-04-25 23:23:13.761 INFO com.gladkaya.shape.parser.DataParser - Correct line of triangle: [0.0, 0.0, 0.0]
+2021-04-25 23:23:13.761 INFO com.gladkaya.shape.parser.DataParser - Correct line of triangle: [0.0, 0.0, 0.0]
+2021-04-25 23:25:37.531 INFO com.gladkaya.shape.validator.DataValidator - Correct string [1.0 2.0 30.0]? true
+2021-04-25 23:25:37.535 INFO com.gladkaya.shape.validator.ShapeValidator - Is triangle [1.0 2.0 30.0]? true
+2021-04-25 23:25:37.535 INFO com.gladkaya.shape.validator.DataValidator - Correct string [2.0 3.0 45.0]? true
+2021-04-25 23:25:37.535 INFO com.gladkaya.shape.validator.ShapeValidator - Is triangle [2.0 3.0 45.0]? true
+2021-04-25 23:25:37.535 INFO com.gladkaya.shape.validator.DataValidator - Correct string [2.0 4.0 0.0]? true
+2021-04-25 23:25:37.535 INFO com.gladkaya.shape.validator.ShapeValidator - Is triangle [2.0 4.0 0.0]? false
+2021-04-25 23:25:37.536 INFO com.gladkaya.shape.validator.DataValidator - Correct string [a.0 5.0 6.0]? false
+2021-04-25 23:25:37.536 INFO com.gladkaya.shape.parser.DataParser - Correct line of triangle: [F@276438c9
+2021-04-25 23:28:08.607 INFO com.gladkaya.shape.validator.DataValidator - Correct string [1.0 2.0 30.0]? true
+2021-04-25 23:28:08.609 INFO com.gladkaya.shape.validator.ShapeValidator - Is triangle [1.0 2.0 30.0]? true
+2021-04-25 23:28:08.610 INFO com.gladkaya.shape.validator.DataValidator - Correct string [2.0 3.0 45.0]? true
+2021-04-25 23:28:08.610 INFO com.gladkaya.shape.validator.ShapeValidator - Is triangle [2.0 3.0 45.0]? true
+2021-04-25 23:28:08.610 INFO com.gladkaya.shape.validator.DataValidator - Correct string [2.0 4.0 0.0]? true
+2021-04-25 23:28:08.610 INFO com.gladkaya.shape.validator.ShapeValidator - Is triangle [2.0 4.0 0.0]? false
+2021-04-25 23:28:08.610 INFO com.gladkaya.shape.validator.DataValidator - Correct string [a.0 5.0 6.0]? false
+2021-04-25 23:28:08.611 INFO com.gladkaya.shape.parser.DataParser - Correct line of triangle: [1.0, 2.0, 30.0]
+2021-04-25 23:28:08.611 INFO com.gladkaya.shape.parser.DataParser - Correct line of triangle: [2.0, 3.0, 45.0]
+2021-04-25 23:31:02.513 INFO com.gladkaya.shape.validator.DataValidator - Correct string [1.0 2.0 30.0]? true
+2021-04-25 23:31:02.516 INFO com.gladkaya.shape.validator.ShapeValidator - Is triangle [1.0 2.0 30.0]? true
+2021-04-25 23:31:02.516 INFO com.gladkaya.shape.validator.DataValidator - Correct string [2.0 3.0 45.0]? true
+2021-04-25 23:31:02.516 INFO com.gladkaya.shape.validator.ShapeValidator - Is triangle [2.0 3.0 45.0]? true
+2021-04-25 23:31:02.516 INFO com.gladkaya.shape.validator.DataValidator - Correct string [2.0 4.0 0.0]? true
+2021-04-25 23:31:02.516 INFO com.gladkaya.shape.validator.ShapeValidator - Is triangle [2.0 4.0 0.0]? false
+2021-04-25 23:31:02.517 INFO com.gladkaya.shape.validator.DataValidator - Correct string [a.0 5.0 6.0]? false
+2021-04-25 23:31:02.517 INFO com.gladkaya.shape.parser.DataParser - Correct line of triangle: [1.0, 2.0, 30.0]
+2021-04-25 23:32:07.220 INFO com.gladkaya.shape.validator.DataValidator - Correct string [1.0 2.0 30.0]? true
+2021-04-25 23:32:07.223 INFO com.gladkaya.shape.validator.ShapeValidator - Is triangle [1.0 2.0 30.0]? true
+2021-04-25 23:32:07.223 INFO com.gladkaya.shape.validator.DataValidator - Correct string [2.0 3.0 45.0]? true
+2021-04-25 23:32:07.223 INFO com.gladkaya.shape.validator.ShapeValidator - Is triangle [2.0 3.0 45.0]? true
+2021-04-25 23:32:07.223 INFO com.gladkaya.shape.validator.DataValidator - Correct string [2.0 4.0 0.0]? true
+2021-04-25 23:32:07.224 INFO com.gladkaya.shape.validator.ShapeValidator - Is triangle [2.0 4.0 0.0]? false
+2021-04-25 23:32:07.224 INFO com.gladkaya.shape.validator.DataValidator - Correct string [a.0 5.0 6.0]? false
+2021-04-25 23:32:07.224 INFO com.gladkaya.shape.parser.DataParser - Correct line of triangle: [1.0, 2.0, 30.0]
+2021-04-25 23:32:07.224 INFO com.gladkaya.shape.parser.DataParser - Correct line of triangle: [2.0, 3.0, 45.0]
+2021-04-25 23:40:39.174 INFO com.gladkaya.shape.validator.DataValidator - Correct string [1.0 2.0 30.0]? true
+2021-04-25 23:40:39.176 INFO com.gladkaya.shape.validator.ShapeValidator - Is triangle [1.0 2.0 30.0]? true
+2021-04-25 23:40:39.177 INFO com.gladkaya.shape.validator.DataValidator - Correct string [2.0 3.0 45.0]? true
+2021-04-25 23:40:39.177 INFO com.gladkaya.shape.validator.ShapeValidator - Is triangle [2.0 3.0 45.0]? true
+2021-04-25 23:40:39.177 INFO com.gladkaya.shape.validator.DataValidator - Correct string [2.0 4.0 0.0]? true
+2021-04-25 23:40:39.177 INFO com.gladkaya.shape.validator.ShapeValidator - Is triangle [2.0 4.0 0.0]? false
+2021-04-25 23:40:39.177 INFO com.gladkaya.shape.validator.DataValidator - Correct string [a.0 5.0 6.0]? false
+2021-04-25 23:40:39.177 INFO com.gladkaya.shape.parser.DataParser - Correct line of triangle: [1.0, 2.0, 30.0]
+2021-04-25 23:40:39.178 INFO com.gladkaya.shape.parser.DataParser - Correct line of triangle: [2.0, 3.0, 45.0]
+2021-04-25 23:40:59.993 INFO com.gladkaya.shape.validator.DataValidator - Correct string [1.0 2.0 30.0]? true
+2021-04-25 23:40:59.996 INFO com.gladkaya.shape.validator.ShapeValidator - Is triangle [1.0 2.0 30.0]? true
+2021-04-25 23:40:59.996 INFO com.gladkaya.shape.validator.DataValidator - Correct string [2.0 3.0 45.0]? true
+2021-04-25 23:40:59.996 INFO com.gladkaya.shape.validator.ShapeValidator - Is triangle [2.0 3.0 45.0]? true
+2021-04-25 23:40:59.996 INFO com.gladkaya.shape.validator.DataValidator - Correct string [2.0 4.0 0.0]? true
+2021-04-25 23:40:59.996 INFO com.gladkaya.shape.validator.ShapeValidator - Is triangle [2.0 4.0 0.0]? false
+2021-04-25 23:40:59.996 INFO com.gladkaya.shape.validator.DataValidator - Correct string [a.0 5.0 6.0]? false
+2021-04-25 23:40:59.997 INFO com.gladkaya.shape.parser.DataParser - Correct line of triangle: [1.0, 2.0, 30.0]
+2021-04-25 23:40:59.997 INFO com.gladkaya.shape.parser.DataParser - Correct line of triangle: [2.0, 3.0, 45.0]
+2021-04-25 23:53:47.978 INFO com.gladkaya.shape.validator.DataValidator - Correct string [1.0 2.0 30.0]? true
+2021-04-25 23:53:47.981 INFO com.gladkaya.shape.validator.ShapeValidator - Is triangle [1.0 2.0 30.0]? true
+2021-04-25 23:53:47.981 INFO com.gladkaya.shape.validator.DataValidator - Correct string [2.0 3.0 45.0]? true
+2021-04-25 23:53:47.981 INFO com.gladkaya.shape.validator.ShapeValidator - Is triangle [2.0 3.0 45.0]? true
+2021-04-25 23:53:47.981 INFO com.gladkaya.shape.validator.DataValidator - Correct string [2.0 4.0 0.0]? true
+2021-04-25 23:53:47.981 INFO com.gladkaya.shape.validator.ShapeValidator - Is triangle [2.0 4.0 0.0]? false
+2021-04-25 23:53:47.982 INFO com.gladkaya.shape.validator.DataValidator - Correct string [a.0 5.0 6.0]? false
+2021-04-25 23:53:47.982 INFO com.gladkaya.shape.parser.DataParser - Correct line of triangle: [1.0, 2.0, 30.0]
+2021-04-25 23:53:47.982 INFO com.gladkaya.shape.parser.DataParser - Correct line of triangle: [2.0, 3.0, 45.0]
+2021-04-26 00:35:06.540 INFO com.gladkaya.shape.validator.DataValidator - Correct string [1.0 2.0 30.0]? true
+2021-04-26 00:35:06.556 INFO com.gladkaya.shape.validator.ShapeValidator - Is triangle [1.0 2.0 30.0]? true
+2021-04-26 00:35:06.556 INFO com.gladkaya.shape.validator.DataValidator - Correct string [2.0 3.0 45.0]? true
+2021-04-26 00:35:06.557 INFO com.gladkaya.shape.validator.ShapeValidator - Is triangle [2.0 3.0 45.0]? true
+2021-04-26 00:35:06.557 INFO com.gladkaya.shape.validator.DataValidator - Correct string [2.0 4.0 0.0]? true
+2021-04-26 00:35:06.557 INFO com.gladkaya.shape.validator.ShapeValidator - Is triangle [2.0 4.0 0.0]? false
+2021-04-26 00:35:06.557 INFO com.gladkaya.shape.validator.DataValidator - Correct string [a.0 5.0 6.0]? false
+2021-04-26 00:36:54.193 INFO com.gladkaya.shape.validator.DataValidator - Correct string [1.0 2.0 30.0]? true
+2021-04-26 00:36:54.196 INFO com.gladkaya.shape.validator.ShapeValidator - Is triangle [1.0 2.0 30.0]? true
+2021-04-26 00:36:54.196 INFO com.gladkaya.shape.validator.DataValidator - Correct string [2.0 3.0 45.0]? true
+2021-04-26 00:36:54.196 INFO com.gladkaya.shape.validator.ShapeValidator - Is triangle [2.0 3.0 45.0]? true
+2021-04-26 00:36:54.196 INFO com.gladkaya.shape.validator.DataValidator - Correct string [2.0 4.0 0.0]? true
+2021-04-26 00:36:54.196 INFO com.gladkaya.shape.validator.ShapeValidator - Is triangle [2.0 4.0 0.0]? false
+2021-04-26 00:36:54.196 INFO com.gladkaya.shape.validator.DataValidator - Correct string [a.0 5.0 6.0]? false
+2021-04-26 00:36:54.197 INFO com.gladkaya.shape.parser.DataParser - Correct line of triangle: [1.0, 2.0, 30.0]
+2021-04-26 00:36:54.197 INFO com.gladkaya.shape.parser.DataParser - Correct line of triangle: [2.0, 3.0, 45.0]
+2021-04-26 00:46:38.616 INFO com.gladkaya.shape.validator.DataValidator - Correct string [1.0 2.0 30.0]? true
+2021-04-26 00:46:38.618 INFO com.gladkaya.shape.validator.ShapeValidator - Is triangle [1.0 2.0 30.0]? true
+2021-04-26 00:46:38.619 INFO com.gladkaya.shape.validator.DataValidator - Correct string [2.0 3.0 45.0]? true
+2021-04-26 00:46:38.619 INFO com.gladkaya.shape.validator.ShapeValidator - Is triangle [2.0 3.0 45.0]? true
+2021-04-26 00:46:38.619 INFO com.gladkaya.shape.validator.DataValidator - Correct string [2.0 4.0 0.0]? true
+2021-04-26 00:46:38.619 INFO com.gladkaya.shape.validator.ShapeValidator - Is triangle [2.0 4.0 0.0]? false
+2021-04-26 00:46:38.619 INFO com.gladkaya.shape.validator.DataValidator - Correct string [a.0 5.0 6.0]? false
+2021-04-26 00:46:38.619 INFO com.gladkaya.shape.validator.DataValidator - Correct string [1.0 2.0 30.0]? true
+2021-04-26 00:46:38.619 INFO com.gladkaya.shape.validator.ShapeValidator - Is triangle [1.0 2.0 30.0]? true
+2021-04-26 00:46:38.620 INFO com.gladkaya.shape.parser.DataParser - Correct line of triangle: [1.0, 2.0, 30.0]
+2021-04-26 00:46:38.620 INFO com.gladkaya.shape.validator.DataValidator - Correct string [2.0 3.0 45.0]? true
+2021-04-26 00:46:38.620 INFO com.gladkaya.shape.validator.ShapeValidator - Is triangle [2.0 3.0 45.0]? true
+2021-04-26 00:46:38.620 INFO com.gladkaya.shape.parser.DataParser - Correct line of triangle: [2.0, 3.0, 45.0]
+2021-04-26 00:47:11.922 INFO com.gladkaya.shape.validator.DataValidator - Correct string [1.0 2.0 30.0]? true
+2021-04-26 00:47:11.925 INFO com.gladkaya.shape.validator.ShapeValidator - Is triangle [1.0 2.0 30.0]? true
+2021-04-26 00:47:11.925 INFO com.gladkaya.shape.parser.DataParser - Correct line of triangle: [1.0, 2.0, 30.0]
+2021-04-26 00:47:11.925 INFO com.gladkaya.shape.validator.DataValidator - Correct string [2.0 3.0 45.0]? true
+2021-04-26 00:47:11.925 INFO com.gladkaya.shape.validator.ShapeValidator - Is triangle [2.0 3.0 45.0]? true
+2021-04-26 00:47:11.925 INFO com.gladkaya.shape.parser.DataParser - Correct line of triangle: [2.0, 3.0, 45.0]
+2021-04-26 00:47:11.925 INFO com.gladkaya.shape.validator.DataValidator - Correct string [2.0 4.0 0.0]? true
+2021-04-26 00:47:11.925 INFO com.gladkaya.shape.validator.ShapeValidator - Is triangle [2.0 4.0 0.0]? false
+2021-04-26 00:47:11.926 INFO com.gladkaya.shape.parser.DataParser - Correct line of triangle: [2.0, 3.0, 45.0]
+2021-04-26 00:47:11.926 INFO com.gladkaya.shape.validator.DataValidator - Correct string [a.0 5.0 6.0]? false
+2021-04-26 00:47:11.926 INFO com.gladkaya.shape.parser.DataParser - Correct line of triangle: [2.0, 3.0, 45.0]
+2021-04-26 00:48:36.646 INFO com.gladkaya.shape.validator.DataValidator - Correct string [1.0 2.0 30.0]? true
+2021-04-26 00:48:36.648 INFO com.gladkaya.shape.validator.ShapeValidator - Is triangle [1.0 2.0 30.0]? true
+2021-04-26 00:48:36.648 INFO com.gladkaya.shape.validator.DataValidator - Correct string [2.0 3.0 45.0]? true
+2021-04-26 00:48:36.649 INFO com.gladkaya.shape.validator.ShapeValidator - Is triangle [2.0 3.0 45.0]? true
+2021-04-26 00:48:36.649 INFO com.gladkaya.shape.validator.DataValidator - Correct string [2.0 4.0 0.0]? true
+2021-04-26 00:48:36.649 INFO com.gladkaya.shape.validator.ShapeValidator - Is triangle [2.0 4.0 0.0]? false
+2021-04-26 00:48:36.649 INFO com.gladkaya.shape.validator.DataValidator - Correct string [a.0 5.0 6.0]? false
+2021-04-26 00:48:36.649 INFO com.gladkaya.shape.parser.DataParser - Correct line of triangle: [1.0, 2.0, 30.0]
+2021-04-26 00:48:36.649 INFO com.gladkaya.shape.parser.DataParser - Correct line of triangle: [2.0, 3.0, 45.0]
+2021-04-26 01:23:36.329 INFO com.gladkaya.shape.validator.DataValidator - Correct string [1.0 2.0 30.0]? true
+2021-04-26 01:23:36.341 INFO com.gladkaya.shape.validator.ShapeValidator - Is triangle [1.0 2.0 30.0]? true
+2021-04-26 01:23:36.342 INFO com.gladkaya.shape.validator.DataValidator - Correct string [2.0 3.0 45.0]? true
+2021-04-26 01:23:36.342 INFO com.gladkaya.shape.validator.ShapeValidator - Is triangle [2.0 3.0 45.0]? true
+2021-04-26 01:23:36.342 INFO com.gladkaya.shape.validator.DataValidator - Correct string [2.0 4.0 0.0]? true
+2021-04-26 01:23:36.342 INFO com.gladkaya.shape.validator.ShapeValidator - Is triangle [2.0 4.0 0.0]? false
+2021-04-26 01:23:36.342 INFO com.gladkaya.shape.validator.DataValidator - Correct string [a.0 5.0 6.0]? false
+2021-04-26 01:23:36.342 INFO com.gladkaya.shape.parser.DataParser - Correct line of triangle: [1.0, 2.0, 30.0]
+2021-04-26 01:23:36.343 INFO com.gladkaya.shape.parser.DataParser - Correct line of triangle: [2.0, 3.0, 45.0]
