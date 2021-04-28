@@ -9,19 +9,19 @@ import org.testng.annotations.Test;
 public class SizeTriangleServiceImplTest {
     private final static Side firstSide = new Side(3.0);
     private final static Side secondSide = new Side(4.0);
-    private final static Triangle triangle = new Triangle(firstSide,secondSide, Math.PI/2);
+    private final static Triangle triangle = new Triangle(firstSide,secondSide, 90.0);
 
     @Test
     public void perimeterOfTriangleTest() {
         SizeTriangleService service = new SizeTriangleServiceImpl();
-        double perimeter = service.perimeterOfTriangle(firstSide, secondSide, triangle);
+        double perimeter = service.perimeterOfTriangle(triangle);
         Assert.assertEquals(perimeter, 12);
     }
 
     @Test
     public void areaOfTriangleTest() {
         SizeTriangleService service = new SizeTriangleServiceImpl();
-        double area = service.areaOfTriangle(firstSide, secondSide, triangle);
+        double area = service.areaOfTriangle(triangle);
         Assert.assertEquals(area, 6);
     }
 }

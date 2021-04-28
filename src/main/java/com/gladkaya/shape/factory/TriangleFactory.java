@@ -8,7 +8,7 @@ import org.apache.logging.log4j.Logger;
 
 public class TriangleFactory {
     private final static Logger logger = LogManager.getLogger();
-    public static Triangle buildTriangle(float[] triangleLine){
+    public static Triangle buildTriangle(double[] triangleLine){
         Side firstSide = new Side((double) triangleLine[0]);
         Side secondSide = new Side((double) triangleLine[1]);
         Triangle triangle = new Triangle(firstSide, secondSide, triangleLine[2]);

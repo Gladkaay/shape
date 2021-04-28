@@ -31,4 +31,19 @@ public class Side {
         return sb.toString();
     }
 
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+
+        Side side1 = (Side) o;
+
+        return Double.compare(side1.side, side) == 0;
+    }
+
+    @Override
+    public int hashCode() {
+        long temp = Double.doubleToLongBits(side);
+        return (int) (temp ^ (temp >>> 32));
+    }
 }

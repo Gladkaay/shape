@@ -7,17 +7,19 @@ import com.gladkaya.shape.service.SizeTriangleService;
 public class SizeTriangleServiceImpl implements SizeTriangleService {
 
     @Override
-    public double perimeterOfTriangle(Side firstSide, Side secondSide, Triangle triangle) {
-        double a = firstSide.getSide();
-        double b = secondSide.getSide();
-        double perimeter = a+b+Math.sqrt(a*a+b*b-2*a*b*Math.cos(triangle.getAngle()));
-        return perimeter;
+    public double areaOfTriangle(Triangle triangle) {
+        double a = triangle.getFirstSide().getSide();
+        double b = triangle.getSecondSide().getSide();
+        double area = 0.5 * a * b * Math.sin(triangle.getAngle());
+        return area;
     }
 
     @Override
-    public double areaOfTriangle(Side firstSide, Side secondSide, Triangle triangle) {
-        double area = 0.5*firstSide.getSide()*secondSide.getSide()*Math.sin(triangle.getAngle());
-        return area;
+    public double perimeterOfTriangle(Triangle triangle) {
+        double a = triangle.getFirstSide().getSide();
+        double b = triangle.getSecondSide().getSide();
+        double perimeter = a + b + Math.sqrt(a * a + b * b - 2 * a * b * Math.cos(triangle.getAngle()));
+        return perimeter;
     }
 
 }

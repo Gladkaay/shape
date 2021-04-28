@@ -1,5 +1,5 @@
 package com.gladkaya.shape.observer;
 
-public interface Observer {
+public interface TriangleObserver {
     void parameterChanged(TriangleEvent event);
 }

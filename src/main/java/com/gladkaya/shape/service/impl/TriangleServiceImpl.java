@@ -12,10 +12,11 @@ public class TriangleServiceImpl implements TriangleService {
     private final static String OBTUSE_TRIANGLE = "Obtuse triangle";
     String view = null;
 
+
     @Override
-    public String viewOfTriangle(Side firstSide, Side secondSide, Triangle triangle) {
-        double a = firstSide.getSide();
-        double b = secondSide.getSide();
+    public String viewOfTriangle(Triangle triangle) {
+        double a = triangle.getFirstSide().getSide();
+        double b = triangle.getSecondSide().getSide();
         double thirdSide = Math.sqrt(a * a + b * b - 2 * a * b * Math.cos(triangle.getAngle()));
         double secondAngle = Math.asin(a * Math.sin(triangle.getAngle()) / thirdSide);
         double thirdAngle = Math.PI - triangle.getAngle() - secondAngle;

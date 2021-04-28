@@ -12,9 +12,9 @@ public class TriangleServiceImplTest {
     public void viewOfRightTriangleTest() {
         Side firstSide = new Side(3.0);
         Side secondSide = new Side(4.0);
-        Triangle triangle = new Triangle(firstSide,secondSide, Math.PI/2);
+        Triangle triangle = new Triangle(firstSide,secondSide, 90.0);
         TriangleService service = new TriangleServiceImpl();
-        String view = service.viewOfTriangle(firstSide, secondSide, triangle);
+        String view = service.viewOfTriangle(triangle);
         Assert.assertEquals(view, "Right triangle");
     }
 
@@ -22,9 +22,9 @@ public class TriangleServiceImplTest {
     public void viewOfIsoscelesTriangleTest() {
         Side firstSide = new Side(5.0);
         Side secondSide = new Side(5.0);
-        Triangle triangle = new Triangle(firstSide,secondSide, Math.PI/6);
+        Triangle triangle = new Triangle(firstSide,secondSide, 30.0);
         TriangleService service = new TriangleServiceImpl();
-        String view = service.viewOfTriangle(firstSide, secondSide, triangle);
+        String view = service.viewOfTriangle(triangle);
         Assert.assertEquals(view, "Isosceles triangle");
     }
 
@@ -32,9 +32,9 @@ public class TriangleServiceImplTest {
     public void viewOfEquilateralTriangleTest() {
         Side firstSide = new Side(4.0);
         Side secondSide = new Side(4.0);
-        Triangle triangle = new Triangle(firstSide,secondSide, Math.PI/3);
+        Triangle triangle = new Triangle(firstSide,secondSide, 60.0);
         TriangleService service = new TriangleServiceImpl();
-        String view = service.viewOfTriangle(firstSide, secondSide, triangle);
+        String view = service.viewOfTriangle(triangle);
         Assert.assertEquals(view, "Equilateral triangle");
     }
 
@@ -42,9 +42,9 @@ public class TriangleServiceImplTest {
     public void viewOfObtuseTriangleTest() {
         Side firstSide = new Side(3.0);
         Side secondSide = new Side(4.0);
-        Triangle triangle = new Triangle(firstSide,secondSide, Math.PI*4/5);
+        Triangle triangle = new Triangle(firstSide,secondSide, 144.0);
         TriangleService service = new TriangleServiceImpl();
-        String view = service.viewOfTriangle(firstSide, secondSide, triangle);
+        String view = service.viewOfTriangle(triangle);
         Assert.assertEquals(view, "Obtuse triangle");
     }
 
@@ -52,9 +52,9 @@ public class TriangleServiceImplTest {
     public void viewOfAcuteTriangleTest() {
         Side firstSide = new Side(3.0);
         Side secondSide = new Side(4.0);
-        Triangle triangle = new Triangle(firstSide,secondSide, Math.PI/4);
+        Triangle triangle = new Triangle(firstSide,secondSide, 45.0);
         TriangleService service = new TriangleServiceImpl();
-        String view = service.viewOfTriangle(firstSide, secondSide, triangle);
+        String view = service.viewOfTriangle(triangle);
         Assert.assertEquals(view, "Acute triangle");
     }
 }

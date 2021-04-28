@@ -2,18 +2,19 @@ package com.gladkaya.shape.entity;
 
 
 import com.gladkaya.shape.observer.Observable;
-import com.gladkaya.shape.observer.Observer;
+import com.gladkaya.shape.observer.TriangleObserver;
 import com.gladkaya.shape.observer.TriangleEvent;
+import com.gladkaya.shape.util.GeneratorId;
 
 import java.util.ArrayList;
 import java.util.List;
 
 public class Triangle extends Side implements Observable {
     private int triangleId;
+    private double angle;
     private Side firstSide;
     private Side secondSide;
-    private double angle;
-    private List<Observer> observers = new ArrayList<>();
+    private List<TriangleObserver> triangleObservers = new ArrayList<>();
 
     public Triangle(Side firstSide, Side secondSide, double angle) {
         super();
@@ -22,9 +23,13 @@ public class Triangle extends Side implements Observable {
         this.angle = angle;
     }
 
-    public Triangle(int triangleId) {
+    public Triangle(int triangleId, Side firstSide, Side secondSide, double angle) {
         super();
-        this.triangleId = triangleId;
+        int id = GeneratorId.generateId();
+        this.triangleId = id;
+        this.firstSide = firstSide;
+        this.secondSide = secondSide;
+        this.angle = angle;
     }
 
     public Integer getTriangleId() {
@@ -33,7 +38,8 @@ public class Triangle extends Side implements Observable {
 
 
     public double getAngle() {
-        return angle;
+        double angleInRadian = Math.toRadians(angle);
+        return angleInRadian;
     }
 
 
@@ -73,22 +79,48 @@ public class Triangle extends Side implements Observable {
     }
 
     @Override
-    public void attach(Observer observer) {
-        if (observer != null) {
-            observers.add(observer);
-        }
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        if (!super.equals(o)) return false;
+
+        Triangle triangle = (Triangle) o;
+
+        if (triangleId != triangle.triangleId) return false;
+        if (Double.compare(triangle.angle, angle) != 0) return false;
+        if (firstSide != null ? !firstSide.equals(triangle.firstSide) : triangle.firstSide != null) return false;
+        if (secondSide != null ? !secondSide.equals(triangle.secondSide) : triangle.secondSide != null) return false;
+        return triangleObservers != null ? triangleObservers.equals(triangle.triangleObservers) : triangle.triangleObservers == null;
     }
 
     @Override
-    public void detach(Observer observer) {
-        observers.remove(observer);
+    public int hashCode() {
+        int result = super.hashCode();
+        long temp;
+        result = 31 * result + triangleId;
+        result = 31 * result + (firstSide != null ? firstSide.hashCode() : 0);
+        result = 31 * result + (secondSide != null ? secondSide.hashCode() : 0);
+        temp = Double.doubleToLongBits(angle);
+        result = 31 * result + (int) (temp ^ (temp >>> 32));
+        result = 31 * result + (triangleObservers != null ? triangleObservers.hashCode() : 0);
+        return result;
+    }
+
+    @Override
+    public void attach(TriangleObserver triangleObserver) {
+        triangleObservers.add(triangleObserver);
+    }
+
+    @Override
+    public void detach(TriangleObserver triangleObserver) {
+        triangleObservers.remove(triangleObserver);
     }
 
     @Override
     public void notifyObservers() {
         TriangleEvent event = new TriangleEvent(this);
-        for (Observer observer : observers) {
-            observer.parameterChanged(event);
+        for (TriangleObserver triangleObserver : triangleObservers) {
+            triangleObserver.parameterChanged(event);
         }
     }
 }

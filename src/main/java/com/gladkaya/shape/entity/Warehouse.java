@@ -4,30 +4,30 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class Warehouse {
-    private Map<Integer, TriangleParameter> map;
+    private Map<Integer, Double> map;
     private static final Warehouse instance = new Warehouse();
 
     private Warehouse() {
-        map = new HashMap<>();
+        map = new HashMap<Integer, Double>();
     }
 
     public static Warehouse getInstance() {
         return instance;
     }
 
-    public TriangleParameter getTriangle(int id) {
+    public Double getTriangle(int id) {
         return map.get(id);
     }
 
-    public TriangleParameter putPerimeter(int id, TriangleParameter perimeter) {
-        return map.put(id, perimeter);
+    public void putPerimeter(int id, double perimeter) {
+        map.put(id, perimeter);
     }
 
-    public TriangleParameter putArea(int id, TriangleParameter area) {
-        return map.put(id, area);
+    public void putArea(int id, double area) {
+        map.put(id, area);
     }
 
-    public TriangleParameter removeTriangle(int id){
+    public Double removeTriangle(int id){
         return map.remove(id);
     }
 }
