@@ -6,7 +6,7 @@ import com.gladkaya.shape.observer.TriangleEvent;
 import com.gladkaya.shape.service.SizeTriangleService;
 import com.gladkaya.shape.service.impl.SizeTriangleServiceImpl;
 
-public class TriangleObserver implements com.gladkaya.shape.observer.TriangleObserver {
+public class TriangleObserverImpl implements com.gladkaya.shape.observer.TriangleObserver {
     @Override
     public void parameterChanged(TriangleEvent event) {
         Triangle triangle = event.getSource();

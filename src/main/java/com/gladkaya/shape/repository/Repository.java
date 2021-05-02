@@ -9,6 +9,18 @@ import java.util.stream.Collectors;
 
 public class Repository {
     private List<Triangle> triangles;
+    private static Repository instance;
+
+    public static Repository getInstance() {
+        if (instance == null) {
+            instance = new Repository();
+        }
+        return instance;
+    }
+
+    public List<Triangle> getTriangles(){
+        return new ArrayList<>(triangles);
+    }
 
     public boolean add(Triangle triangle) {
         return triangles.add(triangle);
